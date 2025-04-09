@@ -1,8 +1,19 @@
 {
-  "projectName": "בית-קפה-דלתא-4931",
-  "businessName": "בית קפה דלתא",
-  "created": "2025-04-09T10:35:32.012Z",
-  "status": "initialized",
-  "progress": 0,
-  "components": []
+  "timestamp": "2025-04-09T10:38:37.222Z",
+  "status": {
+    "totalComponents": 0,
+    "completedComponents": 0,
+    "failedComponents": 1,
+    "progress": 0
+  },
+  "components": [
+    {
+      "name": "Site Plan",
+      "type": "plan",
+      "status": "failed",
+      "description": "יצירת תוכנית האתר",
+      "error": "שגיאה בשירות Anthropic: No object generated: response did not match schema."
+    }
+  ],
+  "repoName": "webis-site-byt-kph-dlta-1744144859544"
 }
